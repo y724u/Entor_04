@@ -488,7 +488,7 @@ template {
   line-height: 50px;
 }
 
-.modal {
+.js-modal {
   height: 100vh;
   position: fixed;
   top: 0;
@@ -498,13 +498,14 @@ template {
   transition: 0.5s;
 }
 
-.show_modal {
+.js-modal.show_modal {
   opacity: 1;
   visibility: visible;
 }
 
 .modal_bg {
-  background: #e5e5e5;
+  background: #000;
+  opacity: 0.7;
   height: 100vh;
   position: absolute;
   width: 100%;
