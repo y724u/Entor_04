@@ -1,9 +1,9 @@
 
 $(function() {
-  $('.js-modalOpen').click(function(){
+  $('.js-modalOpen').on('click',function(){
     $('.modal').fadeIn();
   });
-  $('.js-modalClose').click(function(){
+  $('.js-modalClose').on('click',function(){
     $('.modal').fadeOut();
   });
 });
