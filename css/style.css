@@ -488,7 +488,7 @@ template {
   line-height: 50px;
 }
 
-.modal {
+.js-modal {
   display: none;
   height: 100vh;
   position: fixed;
