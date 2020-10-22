@@ -1,9 +1,12 @@
 
 $(function() {
   $('.js-modalOpen').on('click',function(){
-    $('.js-modal').fadeIn();
+    $('.modal').addClass('show_modal');
   });
   $('.js-modalClose').on('click',function(){
-    $('.js-modal').fadeOut();
+    $('.modal').removeClass('show_modal');
   });
 });
+
+
+
